@@ -85,15 +85,15 @@ print("time", end_time-start_time)'''
 # n= int(input("Nhap vao n so nguyen:"))
 # a=[int(input(f'a[{i}]=') ) for i in range(n)]
 # b=[int(input(f'b[{i}]=') for i in range(n))]
-
-b=[i**2 for i in [2,9,8,3,5,1]]
-a=[2,9,8,3,5,1]
-print(b)
-a.sort()
-print(a)
-# a_sorted=sorted(a,reverse=False)
-bi=[i*2 for i in b]
-print("bi[::1]:",bi[::-1])
-c=a+bi
-c1=a.extend(bi)
-print(c)
+#
+# b=[i**2 for i in [2,9,8,3,5,1]]
+# a=[2,9,8,3,5,1]
+# print(b)
+# a.sort()
+# print(a)
+# # a_sorted=sorted(a,reverse=False)
+# bi=[i*2 for i in b]
+# print("bi[::1]:",bi[::-1])
+# c=a+bi
+# c1=a.extend(bi)
+# print(c)
